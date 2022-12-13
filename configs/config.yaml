@@ -1,0 +1,31 @@
+excel:
+    cases_path: "connect_cases.xlsx"
+    result_col: 8
+    actual_col: 7
+msg:
+  success_result: Pass
+  fail_result: Fail
+log:
+  log_name: cases
+  logger_level: DEBUG
+  formatter: '%(asctime)s - [%(filename)s-->line:%(lineno)d] - %(levelname)s: %(message)s'
+  stream_level: DEBUG
+  logfile_name: test.log
+  logfile_level: DEBUG
+report:
+  name: report
+  title: "TMX Connect接口自动化测试报告"
+  description: "TMX Connect接口自动化测试报告"
+  tester: "Bin.Huang"
+mysql:
+  host: 'database-io-test.ce2ecbrgosdw.ap-southeast-1.rds.amazonaws.com'
+  user: 'tester'
+  password: 'tester.TMX@2022'
+  db: 'tm_admin'
+  port: 3306
+account:
+  companyId: '788136251742011392'
+  userId: '788135736837423104'
+api:
+  prefix: 'https://api.thingsmatrix.co'
+

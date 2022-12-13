@@ -1,0 +1,1 @@
+[32mINFO    [0m cases:test_group.py:90 编辑组--编辑Group Name, 执行的结果为: 通过

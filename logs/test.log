@@ -1,0 +1,546 @@
+2022-12-07 10:20:10,718 - [conftest.py-->line:15] - INFO: *************************************************************
+2022-12-07 10:20:11,040 - [conftest.py-->line:44] - INFO: test start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:20:11,496 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: success
+
+2022-12-07 10:20:11,847 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-07 10:20:12,046 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-07 10:20:12,445 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-07 10:20:12,677 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-07 10:20:12,877 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-07 10:20:13,134 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-07 10:20:13,338 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-07 10:20:13,521 - [test_01_group.py-->line:71] - INFO: 组添加SIM Card, 执行的结果为: success
+
+2022-12-07 10:20:13,658 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-07 10:20:13,850 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-07 10:20:14,006 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-07 10:20:14,055 - [conftest.py-->line:46] - INFO: test finish!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:20:14,156 - [conftest.py-->line:44] - INFO: test start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:20:14,557 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: success
+
+2022-12-07 10:20:14,777 - [test_02_home.py-->line:67] - INFO: 查询Home页面流量分组统计, 执行的结果为: success
+
+2022-12-07 10:20:14,991 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: success
+
+2022-12-07 10:20:15,226 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: success
+
+2022-12-07 10:20:15,429 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: success
+
+2022-12-07 10:20:15,640 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: success
+
+2022-12-07 10:20:15,692 - [conftest.py-->line:46] - INFO: test finish!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:20:15,694 - [conftest.py-->line:30] - INFO: *************************************************************
+2022-12-07 10:28:25,448 - [conftest.py-->line:15] - INFO: *************************************************************
+2022-12-07 10:28:25,746 - [conftest.py-->line:44] - INFO: test start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:28:26,214 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: success
+
+2022-12-07 10:28:26,457 - [test_02_home.py-->line:67] - INFO: 查询Home页面流量分组统计, 执行的结果为: success
+
+2022-12-07 10:28:26,670 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: success
+
+2022-12-07 10:28:26,875 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: success
+
+2022-12-07 10:28:27,067 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: success
+
+2022-12-07 10:28:27,268 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: success
+
+2022-12-07 10:28:27,316 - [conftest.py-->line:46] - INFO: test finish!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:28:27,319 - [conftest.py-->line:30] - INFO: *************************************************************
+2022-12-07 10:31:05,188 - [conftest.py-->line:15] - INFO: *************************************************************
+2022-12-07 10:31:05,486 - [conftest.py-->line:44] - INFO: test start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:31:05,941 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: success
+
+2022-12-07 10:31:06,188 - [test_02_home.py-->line:67] - INFO: 查询Home页面流量分组统计, 执行的结果为: success
+
+2022-12-07 10:31:06,396 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: success
+
+2022-12-07 10:31:06,611 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: success
+
+2022-12-07 10:31:06,811 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: success
+
+2022-12-07 10:31:07,065 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: success
+
+2022-12-07 10:31:07,230 - [conftest.py-->line:46] - INFO: test finish!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:31:07,236 - [conftest.py-->line:30] - INFO: *************************************************************
+2022-12-07 10:31:52,246 - [conftest.py-->line:15] - INFO: *************************************************************
+2022-12-07 10:31:52,557 - [conftest.py-->line:44] - INFO: test start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:31:53,008 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: success
+
+2022-12-07 10:31:53,340 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-07 10:31:53,539 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-07 10:31:53,760 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-07 10:31:53,950 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-07 10:31:54,179 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-07 10:31:54,450 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-07 10:31:54,649 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-07 10:31:54,843 - [test_01_group.py-->line:71] - INFO: 组添加SIM Card, 执行的结果为: success
+
+2022-12-07 10:31:55,011 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-07 10:31:55,228 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-07 10:31:55,402 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-07 10:31:55,471 - [conftest.py-->line:46] - INFO: test finish!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:31:55,576 - [conftest.py-->line:30] - INFO: *************************************************************
+2022-12-07 10:32:51,333 - [conftest.py-->line:15] - INFO: *************************************************************
+2022-12-07 10:32:51,630 - [conftest.py-->line:44] - INFO: test start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:32:52,061 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: success
+
+2022-12-07 10:32:52,418 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-07 10:32:52,619 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-07 10:32:52,827 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-07 10:32:53,013 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-07 10:32:53,221 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-07 10:32:53,515 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-07 10:32:53,743 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-07 10:32:53,936 - [test_01_group.py-->line:71] - INFO: 组添加SIM Card, 执行的结果为: success
+
+2022-12-07 10:32:54,106 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-07 10:32:54,309 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-07 10:32:54,485 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-07 10:32:54,546 - [conftest.py-->line:46] - INFO: test finish!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:32:54,662 - [conftest.py-->line:44] - INFO: test start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:32:55,022 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: success
+
+2022-12-07 10:32:55,243 - [test_02_home.py-->line:67] - INFO: 查询Home页面流量分组统计, 执行的结果为: success
+
+2022-12-07 10:32:55,478 - [test_02_home.py-->line:67] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: success
+
+2022-12-07 10:32:55,695 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: success
+
+2022-12-07 10:32:56,050 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: success
+
+2022-12-07 10:32:56,260 - [test_02_home.py-->line:67] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: success
+
+2022-12-07 10:32:56,323 - [conftest.py-->line:46] - INFO: test finish!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2022-12-07 10:32:56,327 - [conftest.py-->line:30] - INFO: *************************************************************
+2022-12-08 11:20:04,391 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: success
+
+2022-12-08 11:20:04,791 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 11:20:05,102 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 11:20:05,422 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 11:20:05,681 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-08 11:20:05,975 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-08 11:20:06,283 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-08 11:20:06,580 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:20:07,071 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:20:07,329 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-08 11:20:07,614 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-08 11:22:07,261 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: success
+
+2022-12-08 11:22:07,593 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 11:22:07,793 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 11:22:08,015 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 11:22:08,198 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-08 11:22:08,409 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-08 11:22:08,595 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-08 11:22:08,807 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:22:09,145 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:22:09,366 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-08 11:22:09,520 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-08 11:30:06,278 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: success
+
+2022-12-08 11:30:06,636 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 11:30:06,844 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 11:30:07,064 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 11:30:07,253 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-08 11:30:07,477 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-08 11:30:07,710 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-08 11:30:07,933 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:30:08,200 - [test_01_group.py-->line:74] - ERROR: 组添加SIM Card, 执行的结果为: Fail
+具体异常为: assert None
+
+2022-12-08 11:30:08,433 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:30:08,670 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-08 11:30:08,820 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-08 11:32:28,066 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: success
+
+2022-12-08 11:32:28,406 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 11:32:28,599 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 11:32:28,796 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 11:32:28,962 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-08 11:32:29,155 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-08 11:32:29,342 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-08 11:32:29,541 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:32:29,801 - [test_01_group.py-->line:74] - ERROR: 组添加SIM Card, 执行的结果为: Fail
+具体异常为: assert None
+
+2022-12-08 11:32:30,011 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-08 11:32:30,223 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-08 11:32:30,372 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-08 14:22:35,658 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 14:22:35,884 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 14:22:36,060 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 14:23:46,612 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 14:23:46,843 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 14:23:47,030 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 14:24:50,038 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 14:24:50,273 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 14:24:50,513 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 15:05:31,703 - [test_01_group.py-->line:74] - ERROR: 查询SIM Card Group List--空状态, 执行的结果为: Fail
+具体异常为: assert 10 == 0
+
+2022-12-08 15:05:32,131 - [test_01_group.py-->line:71] - INFO: 添加组--成功, 执行的结果为: success
+
+2022-12-08 15:05:32,335 - [test_01_group.py-->line:71] - INFO: 添加组--name为空, 执行的结果为: success
+
+2022-12-08 15:05:32,568 - [test_01_group.py-->line:71] - INFO: 添加组--Description为空, 执行的结果为: success
+
+2022-12-08 15:05:32,761 - [test_01_group.py-->line:71] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: success
+
+2022-12-08 15:05:32,987 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Group Name, 执行的结果为: success
+
+2022-12-08 15:05:33,193 - [test_01_group.py-->line:71] - INFO: 编辑组--编辑Description, 执行的结果为: success
+
+2022-12-08 15:05:33,398 - [test_01_group.py-->line:71] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: success
+
+2022-12-08 15:05:33,683 - [test_01_group.py-->line:74] - ERROR: 组添加SIM Card, 执行的结果为: Fail
+具体异常为: assert None
+
+2022-12-08 15:05:33,870 - [test_01_group.py-->line:71] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: success
+
+2022-12-08 15:05:34,043 - [test_01_group.py-->line:71] - INFO: 将SIM Card移出Group, 执行的结果为: success
+
+2022-12-08 15:05:34,209 - [test_01_group.py-->line:71] - INFO: 删除组, 执行的结果为: success
+
+2022-12-08 15:16:07,044 - [test_03_group.py-->line:55] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 15:16:07,262 - [test_03_group.py-->line:55] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 15:16:07,504 - [test_03_group.py-->line:55] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 15:16:43,120 - [test_03_group.py-->line:55] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 15:16:43,349 - [test_03_group.py-->line:55] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 15:16:43,598 - [test_03_group.py-->line:59] - ERROR: 添加组--Description为空, 执行的结果为: 不通过。具体异常为: assert 2 == 0
+
+2022-12-08 16:03:00,593 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 16:03:00,815 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 16:03:01,028 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 16:03:01,228 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 16:03:01,580 - [test_03_group.py-->line:106] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 16:06:02,746 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 16:06:02,962 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 16:06:03,196 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 16:06:03,434 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 16:06:03,783 - [test_03_group.py-->line:106] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 16:09:17,211 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 16:09:17,508 - [test_03_group.py-->line:106] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 16:09:17,732 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 16:11:04,499 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 16:11:04,728 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 16:11:04,984 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 16:11:25,892 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 16:11:26,134 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 16:11:26,366 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 16:11:26,563 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 16:11:26,885 - [test_03_group.py-->line:106] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 16:11:27,087 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 16:20:03,004 - [test_03_group.py-->line:57] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 16:20:03,276 - [test_03_group.py-->line:57] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 16:20:03,503 - [test_03_group.py-->line:57] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 16:20:03,710 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 16:20:04,037 - [test_03_group.py-->line:106] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 16:20:04,236 - [test_03_group.py-->line:106] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 16:44:38,834 - [test_03_group.py-->line:58] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 16:44:39,055 - [test_03_group.py-->line:58] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 16:44:39,288 - [test_03_group.py-->line:58] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 16:53:31,002 - [test_03_group.py-->line:48] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 16:53:31,294 - [test_03_group.py-->line:48] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 16:53:31,528 - [test_03_group.py-->line:48] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 16:53:31,741 - [test_03_group.py-->line:88] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 16:53:32,094 - [test_03_group.py-->line:88] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 16:53:32,316 - [test_03_group.py-->line:88] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 17:01:06,600 - [test_03_group.py-->line:48] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 17:01:06,900 - [test_03_group.py-->line:48] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 17:01:07,138 - [test_03_group.py-->line:48] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 17:01:07,398 - [test_03_group.py-->line:88] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 17:01:07,761 - [test_03_group.py-->line:88] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:01:07,993 - [test_03_group.py-->line:88] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 17:02:08,901 - [test_03_group.py-->line:48] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 17:02:09,139 - [test_03_group.py-->line:48] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 17:02:09,364 - [test_03_group.py-->line:48] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 17:02:09,572 - [test_03_group.py-->line:88] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 17:02:09,909 - [test_03_group.py-->line:88] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:02:10,155 - [test_03_group.py-->line:88] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 17:30:50,350 - [test_03_group.py-->line:50] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 17:30:50,877 - [test_03_group.py-->line:50] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 17:30:51,319 - [test_03_group.py-->line:90] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 17:30:51,576 - [test_03_group.py-->line:90] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 17:36:09,500 - [test_03_group.py-->line:136] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:36:09,784 - [test_03_group.py-->line:136] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-08 17:36:10,031 - [test_03_group.py-->line:136] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-08 17:36:19,357 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 17:36:19,756 - [test_03_group.py-->line:52] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:36:19,963 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 17:36:20,462 - [test_03_group.py-->line:92] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 17:36:20,736 - [test_03_group.py-->line:92] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 17:36:21,153 - [test_03_group.py-->line:136] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-08 17:36:21,374 - [test_03_group.py-->line:136] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-08 17:40:07,800 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 17:40:08,263 - [test_03_group.py-->line:52] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:40:08,621 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 17:40:09,082 - [test_03_group.py-->line:92] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 17:40:09,403 - [test_03_group.py-->line:92] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 17:40:09,750 - [test_03_group.py-->line:92] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 17:40:10,205 - [test_03_group.py-->line:136] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:40:10,568 - [test_03_group.py-->line:140] - ERROR: 编辑组--编辑Group Name, 执行的结果为: 不通过。具体异常为: assert 0 == 10007
+
+2022-12-08 17:40:10,973 - [test_03_group.py-->line:140] - ERROR: 编辑组--编辑Description, 执行的结果为: 不通过。具体异常为: assert 0 == 10007
+
+2022-12-08 17:46:27,668 - [test_03_group.py-->line:136] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:46:28,064 - [test_03_group.py-->line:140] - ERROR: 编辑组--编辑Group Name, 执行的结果为: 不通过。具体异常为: assert 0 == 10007
+
+2022-12-08 17:46:28,488 - [test_03_group.py-->line:140] - ERROR: 编辑组--编辑Description, 执行的结果为: 不通过。具体异常为: assert 0 == 10007
+
+2022-12-08 17:55:21,034 - [test_03_group.py-->line:140] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:55:21,370 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-08 17:55:21,596 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-08 17:56:27,043 - [test_03_group.py-->line:140] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:56:27,284 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-08 17:56:27,519 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-08 17:56:33,930 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 17:56:34,310 - [test_03_group.py-->line:52] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 17:56:34,524 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 17:56:34,990 - [test_03_group.py-->line:92] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 17:56:35,246 - [test_03_group.py-->line:92] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 17:56:35,652 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-08 17:56:35,898 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-08 18:00:56,604 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-08 18:00:56,970 - [test_03_group.py-->line:52] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 18:00:57,201 - [test_03_group.py-->line:52] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-08 18:00:57,559 - [test_03_group.py-->line:92] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-08 18:00:57,817 - [test_03_group.py-->line:92] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-08 18:00:58,079 - [test_03_group.py-->line:92] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-08 18:00:58,444 - [test_03_group.py-->line:140] - INFO: 添加组, 执行的结果为: 通过
+2022-12-08 18:00:58,717 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-08 18:00:58,936 - [test_03_group.py-->line:140] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-09 17:21:43,521 - [test_03_list.py-->line:70] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-09 17:24:12,347 - [test_03_list.py-->line:70] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-09 17:24:48,405 - [test_03_list.py-->line:70] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-12 15:09:07,660 - [test_group.py-->line:180] - ERROR: 添加组--name为空, 执行的结果为: 不通过。具体异常为: assert 10001 == 401
+
+2022-12-12 15:09:07,850 - [test_group.py-->line:180] - ERROR: 添加组--Description为空, 执行的结果为: 不通过。具体异常为: assert 0 == 401
+
+2022-12-12 15:10:09,164 - [test_group.py-->line:177] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-12 15:10:09,479 - [test_group.py-->line:177] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-12 15:10:09,745 - [test_group.py-->line:177] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-12 15:32:00,124 - [test_group.py-->line:181] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-12 15:32:00,527 - [test_group.py-->line:181] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-12 15:32:00,758 - [test_group.py-->line:181] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-12 15:32:01,018 - [test_group.py-->line:181] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-12 15:32:58,182 - [test_group.py-->line:181] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-12 15:32:58,552 - [test_group.py-->line:181] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-12 15:32:58,807 - [test_group.py-->line:181] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-12 15:32:59,064 - [test_group.py-->line:181] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-12 15:32:59,282 - [test_group.py-->line:184] - ERROR: 查询SIM Card Group List--关键字查询, 执行的结果为: 不通过。具体异常为: assert '{sim_group_name}' in '{"code":0,"message":"success","data":[{"id":"766f493b52b737d1","name":"AutoGR2","description":"456","creator":"788135736837423104","createTime":"2022-12-12T07:32:56Z","updator":"788135736837423104","updateTime":"2022-12-12T07:32:56Z"}]}'
+ +  where '{sim_group_name}' = <built-in method get of dict object at 0x000001DA5D8EF0E8>('keyword')
+ +    where <built-in method get of dict object at 0x000001DA5D8EF0E8> = {'companyId': '{company_id}', 'keyword': '{sim_group_name}'}.get
+ +      where {'companyId': '{company_id}', 'keyword': '{sim_group_name}'} = eval('{"companyId": "{company_id}", \n"keyword": "{sim_group_name}"}')
+ +        where '{"companyId": "{company_id}", \n"keyword": "{sim_group_name}"}' = <scripts.handle_excel.CaseData object at 0x000001DA5D8E9B48>.data
+ +  and   '{"code":0,"message":"success","data":[{"id":"766f493b52b737d1","name":"AutoGR2","description":"456","creator":"788135736837423104","createTime":"2022-12-12T07:32:56Z","updator":"788135736837423104","updateTime":"2022-12-12T07:32:56Z"}]}' = <Response [200]>.text
+
+2022-12-12 15:36:04,849 - [test_group.py-->line:181] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-12 15:36:05,234 - [test_group.py-->line:181] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-12 15:36:05,463 - [test_group.py-->line:181] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-12 15:36:05,714 - [test_group.py-->line:181] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-12 15:36:05,948 - [test_group.py-->line:181] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-12 16:05:26,192 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 16:05:26,695 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-12 16:05:27,016 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-12 16:05:38,385 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 16:05:38,658 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-12 16:05:38,883 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-12 16:08:28,753 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 16:08:29,402 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-12 16:08:29,662 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-12 16:08:29,913 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-12 17:00:55,436 - [test_group.py-->line:143] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:00:55,934 - [test_group.py-->line:143] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:01:34,343 - [test_group.py-->line:143] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:01:34,949 - [test_group.py-->line:143] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:03:01,320 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:03:01,570 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:03:02,496 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:04:47,944 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:04:48,192 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:04:48,541 - [test_group.py-->line:142] - ERROR: 组添加SIM Card, 执行的结果为: 不通过。具体异常为: assert None
+
+2022-12-12 17:04:48,835 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:04:49,168 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-12 17:11:31,908 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:11:32,180 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:11:32,521 - [test_group.py-->line:142] - ERROR: 组添加SIM Card, 执行的结果为: 不通过。具体异常为: assert None
+
+2022-12-12 17:11:32,800 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:14:21,617 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:14:21,866 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:14:22,191 - [test_group.py-->line:142] - ERROR: 组添加SIM Card, 执行的结果为: 不通过。具体异常为: assert None
+
+2022-12-12 17:14:22,436 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:14:22,729 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-12 17:34:26,468 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:34:26,708 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:34:27,036 - [test_group.py-->line:142] - ERROR: 组添加SIM Card, 执行的结果为: 不通过。具体异常为: assert None
+
+2022-12-12 17:34:27,324 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:34:27,679 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-12 17:35:06,128 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:35:06,503 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:35:06,946 - [test_group.py-->line:142] - ERROR: 组添加SIM Card, 执行的结果为: 不通过。具体异常为: assert None
+
+2022-12-12 17:35:07,449 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 17:35:07,891 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-12 17:39:42,147 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 17:42:43,228 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 18:09:43,825 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 18:09:44,079 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 18:09:44,428 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-12 18:09:44,623 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 18:09:44,928 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-12 18:15:20,072 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-12 18:15:20,749 - [test_group.py-->line:44] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-12 18:15:21,015 - [test_group.py-->line:44] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-12 18:15:21,270 - [test_group.py-->line:44] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-12 18:15:21,493 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-12 18:15:21,932 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 18:15:22,250 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-12 18:15:22,491 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-12 18:15:22,751 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-12 18:15:23,173 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 18:15:23,420 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 18:15:23,735 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-12 18:15:23,923 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 18:15:24,235 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-12 18:16:34,768 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-12 18:16:35,119 - [test_group.py-->line:44] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-12 18:16:35,342 - [test_group.py-->line:44] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-12 18:16:35,595 - [test_group.py-->line:44] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-12 18:16:35,818 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-12 18:16:36,287 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 18:16:36,519 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-12 18:16:36,735 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-12 18:16:36,929 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-12 18:16:37,375 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 18:16:37,618 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 18:16:37,942 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-12 18:16:38,127 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 18:16:38,412 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-12 19:20:29,762 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-12 19:20:30,138 - [test_group.py-->line:44] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-12 19:20:30,744 - [test_group.py-->line:44] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-12 19:20:30,983 - [test_group.py-->line:44] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-12 19:20:31,223 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-12 19:20:31,668 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 19:20:31,930 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-12 19:20:32,189 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-12 19:20:32,376 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-12 19:20:32,814 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-12 19:20:33,086 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-12 19:20:33,385 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-12 19:20:33,589 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-12 19:20:33,872 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-13 15:19:40,669 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: Pass
+
+2022-12-13 15:19:40,897 - [test_02_home.py-->line:42] - INFO: 查询Home页面流量分组统计, 执行的结果为: Pass
+
+2022-12-13 15:19:41,112 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: Pass
+
+2022-12-13 15:19:41,362 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: Pass
+
+2022-12-13 15:19:41,586 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: Pass
+
+2022-12-13 15:19:41,815 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: Pass
+
+2022-12-13 15:19:41,980 - [test_03_list.py-->line:70] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-13 15:19:42,180 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-13 15:19:42,623 - [test_group.py-->line:44] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-13 15:19:42,863 - [test_group.py-->line:44] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-13 15:19:43,098 - [test_group.py-->line:44] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-13 15:19:43,314 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-13 15:19:43,792 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-13 15:19:44,043 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-13 15:19:44,296 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-13 15:19:44,518 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-13 15:19:44,942 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-13 15:19:45,182 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-13 15:19:45,516 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-13 15:19:45,695 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-13 15:19:46,047 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
