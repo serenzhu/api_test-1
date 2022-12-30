@@ -1,0 +1,1 @@
+[32mINFO    [0m cases:test_02_home.py:42 查询Home页面SIM Card状态统计, 执行的结果为: Pass

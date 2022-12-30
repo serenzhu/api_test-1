@@ -1,0 +1,3 @@
+[31m[1mERROR   [0m cases:test_group.py:47 添加组--Description为空, 执行的结果为: 不通过。具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D86B598>('code')
+ +    where <built-in method get of dict object at 0x000002257D86B598> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get

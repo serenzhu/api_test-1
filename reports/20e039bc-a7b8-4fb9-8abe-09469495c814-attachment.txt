@@ -1,0 +1,4 @@
+[31m[1mERROR   [0m cases:test_02_home.py:45 查询Home页面最近7天Total Usage, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D70AF98>('code')
+ +    where <built-in method get of dict object at 0x000002257D70AF98> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get

@@ -9,13 +9,13 @@ from scripts.handle_mysql import do_mysql
 from scripts.handle_parameterize import Parameterize
 
 
-@pytest.mark.usefixtures("init_login")
+@pytest.mark.usefixtures("init_test_sim_group")
 class TestSimList:
     excel = HandleExcel('sim_card_list')   # 创建HandleExcel对象
     cases = excel.read_data_obj()     # 获取excel中group表单下的所有数据
 
     @pytest.mark.parametrize('case', cases)
-    def test_group(self, case, init_login):
+    def test_sim_list(self, case, init_test_sim_group):
         allure.dynamic.title(case.title)
         # 1. 请求数据参数化
         new_data = Parameterize.to_param(case.data)
@@ -23,7 +23,7 @@ class TestSimList:
         new_url = c_yaml.read('api', 'prefix') + case.url
         new_url = Parameterize.to_param(new_url)
         # 3. 向服务器发起请求
-        res = init_login.send(url=new_url,  # url地址
+        res = init_test_sim_group.send(url=new_url,  # url地址
                               method=case.method,    # 请求方法
                               data=new_data,   # 请求参数
                               is_json=True   # 是否以json格式来传递数据, 默认为True
@@ -34,14 +34,16 @@ class TestSimList:
         # # 是否需要查询数据库进行数据校验
         # check_sql = case.check_sql
         #
-        # # 将返回的SIM Card Group Id、Name、Description设置为Parameterize类动态属性
-        # if case.case_id == 2:
-        #     sim_card_group_id = actual_value['data']['id']
-        #     sim_card_group_name = actual_value['data']['name']
-        #     sim_card_group_description = actual_value['data']['description']
-        #     setattr(Parameterize, 'sim_card_group_id', sim_card_group_id)
-        #     setattr(Parameterize, 'sim_card_group_name', sim_card_group_name)
-        #     setattr(Parameterize, 'sim_card_group_description', sim_card_group_description)
+        # # 将返回的Carrier Id、SIM Card Group Id设置为Parameterize类动态属性
+        if case.case_id == 1:
+            carrier_id = actual_value['data'][1]['id']
+            setattr(Parameterize, 'carrier_id', carrier_id)
+        if case.case_id == 2:
+            sim_card_group_id = actual_value['data']['id']
+            setattr(Parameterize, 'sim_card_group_id', sim_card_group_id)
+        if case.case_id == 4:
+            first_sim_iccid = actual_value['data']['list'][0]['iccid']
+            setattr(Parameterize, 'first_sim_iccid', first_sim_iccid)
         # # 对需要进行数据校验的SQL语句进行参数化
         # check_sql = Parameterize.to_param(check_sql)
         #

@@ -13,6 +13,8 @@ class Parameterize:
     sim_group_name_pattern = r'{sim_group_name}'    # SIM Card Group Name
     sim_group_description_pattern = r'{sim_group_description}'  # SIM Card Group Description
     first_sim_id_pattern = r'{first_sim_id}'    # Add SIM Card to Group列表返回的第一个SIM Card的id
+    first_sim_iccid_pattern = r'{first_sim_iccid}'  # SIM Card列表非农户的第一个SIM Card的ICCID
+    carrier_id_pattern = r'{carrier_id}'    # FloLive运营商id
 
     @classmethod
     def common_replace(cls, data):
@@ -59,6 +61,14 @@ class Parameterize:
         elif re.search(cls.first_sim_id_pattern, data):
             first_sim_id = getattr(cls, 'first_sim_id')
             data = re.sub(cls.first_sim_id_pattern, first_sim_id, data)
+
+        elif re.search(cls.first_sim_iccid_pattern, data):
+            first_sim_iccid = getattr(cls, 'first_sim_iccid')
+            data = re.sub(cls.first_sim_iccid_pattern, first_sim_iccid, data)
+
+        elif re.search(cls.carrier_id_pattern, data):
+            carrier_id = getattr(cls, 'carrier_id')
+            data = re.sub(cls.carrier_id_pattern, carrier_id, data)
 
         return data
 

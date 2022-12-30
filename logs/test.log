@@ -544,3 +544,292 @@
 2022-12-13 15:19:45,516 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
 2022-12-13 15:19:45,695 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
 2022-12-13 15:19:46,047 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-15 16:47:24,266 - [test_02_home.py-->line:45] - ERROR: 查询Home页面SIM Card分组统计, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D55FD18>('code')
+ +    where <built-in method get of dict object at 0x000002257D55FD18> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:24,648 - [test_02_home.py-->line:45] - ERROR: 查询Home页面流量分组统计, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D5A36D8>('code')
+ +    where <built-in method get of dict object at 0x000002257D5A36D8> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:24,900 - [test_02_home.py-->line:45] - ERROR: 查询Home页面SIM Card状态统计, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D6F5458>('code')
+ +    where <built-in method get of dict object at 0x000002257D6F5458> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:25,125 - [test_02_home.py-->line:45] - ERROR: 查询Home页面最近7天Total Usage, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D70AF98>('code')
+ +    where <built-in method get of dict object at 0x000002257D70AF98> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:25,324 - [test_02_home.py-->line:45] - ERROR: 查询Home页面最近6个月Total Usage, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D3D9E08>('code')
+ +    where <built-in method get of dict object at 0x000002257D3D9E08> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:25,544 - [test_02_home.py-->line:45] - ERROR: 查询Home页面最近7天流量使用Top10, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D5BE408>('code')
+ +    where <built-in method get of dict object at 0x000002257D5BE408> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:25,766 - [test_03_list.py-->line:73] - ERROR: 获取Carrier搜索框选项列表, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D766688>('code')
+ +    where <built-in method get of dict object at 0x000002257D766688> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:25,990 - [test_group.py-->line:47] - ERROR: 查询SIM Card Group List--空状态, 执行的结果为: 不通过。具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D7B14A8>('code')
+ +    where <built-in method get of dict object at 0x000002257D7B14A8> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:26,348 - [test_group.py-->line:47] - ERROR: 添加组--name为空, 执行的结果为: 不通过。具体异常为: assert 10001 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D81FC28>('code')
+ +    where <built-in method get of dict object at 0x000002257D81FC28> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:47:26,580 - [test_group.py-->line:47] - ERROR: 添加组--Description为空, 执行的结果为: 不通过。具体异常为: assert 0 == 401
+ +  where 401 = <built-in method get of dict object at 0x000002257D86B598>('code')
+ +    where <built-in method get of dict object at 0x000002257D86B598> = {'code': 401, 'data': 'https://sso.thingsmatrix.co/oauth/authorize?client_id=console&redirect_uri=http://10.10.130.222:3000/auth&response_type=code', 'message': 'Login is not authorized, please retry sign in'}.get
+
+2022-12-15 16:50:56,947 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: Pass
+
+2022-12-15 16:50:57,185 - [test_02_home.py-->line:42] - INFO: 查询Home页面流量分组统计, 执行的结果为: Pass
+
+2022-12-15 16:50:57,432 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: Pass
+
+2022-12-15 16:50:57,681 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: Pass
+
+2022-12-15 16:50:57,894 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: Pass
+
+2022-12-15 16:50:58,100 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: Pass
+
+2022-12-15 16:50:58,260 - [test_03_list.py-->line:70] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-15 16:50:58,467 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-15 16:50:58,847 - [test_group.py-->line:44] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-15 16:50:59,078 - [test_group.py-->line:44] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-15 16:50:59,302 - [test_group.py-->line:44] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-15 16:50:59,520 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-15 16:50:59,943 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-15 16:51:00,224 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-15 16:51:00,453 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-15 16:51:00,975 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-15 16:51:01,414 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-15 16:51:01,669 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-15 16:51:02,021 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-15 16:51:02,186 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-15 16:51:03,138 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-15 16:51:24,596 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: Pass
+
+2022-12-15 16:51:24,806 - [test_02_home.py-->line:42] - INFO: 查询Home页面流量分组统计, 执行的结果为: Pass
+
+2022-12-15 16:51:25,033 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: Pass
+
+2022-12-15 16:51:25,244 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: Pass
+
+2022-12-15 16:51:25,463 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: Pass
+
+2022-12-15 16:51:25,658 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: Pass
+
+2022-12-15 16:51:25,827 - [test_03_list.py-->line:70] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-15 16:51:26,057 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-15 16:51:26,389 - [test_group.py-->line:44] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-15 16:51:26,607 - [test_group.py-->line:44] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-15 16:51:27,205 - [test_group.py-->line:44] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-15 16:51:27,438 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-15 16:51:27,888 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-15 16:51:28,122 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-15 16:51:28,338 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-15 16:51:28,541 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-15 16:51:28,980 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-15 16:51:29,248 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-15 16:51:29,571 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-15 16:51:29,757 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-15 16:51:30,068 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-15 17:00:23,009 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card分组统计, 执行的结果为: Pass
+
+2022-12-15 17:00:23,245 - [test_02_home.py-->line:42] - INFO: 查询Home页面流量分组统计, 执行的结果为: Pass
+
+2022-12-15 17:00:23,474 - [test_02_home.py-->line:42] - INFO: 查询Home页面SIM Card状态统计, 执行的结果为: Pass
+
+2022-12-15 17:00:23,691 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天Total Usage, 执行的结果为: Pass
+
+2022-12-15 17:00:23,900 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近6个月Total Usage, 执行的结果为: Pass
+
+2022-12-15 17:00:24,104 - [test_02_home.py-->line:42] - INFO: 查询Home页面最近7天流量使用Top10, 执行的结果为: Pass
+
+2022-12-15 17:00:24,279 - [test_03_list.py-->line:70] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-15 17:00:24,517 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--空状态, 执行的结果为: 通过
+2022-12-15 17:00:24,833 - [test_group.py-->line:44] - INFO: 添加组--成功, 执行的结果为: 通过
+2022-12-15 17:00:25,057 - [test_group.py-->line:44] - INFO: 添加组--name为空, 执行的结果为: 通过
+2022-12-15 17:00:25,289 - [test_group.py-->line:44] - INFO: 添加组--Description为空, 执行的结果为: 通过
+2022-12-15 17:00:25,480 - [test_group.py-->line:44] - INFO: 查询SIM Card Group List--关键字查询, 执行的结果为: 通过
+2022-12-15 17:00:25,924 - [test_group.py-->line:90] - INFO: 添加组, 执行的结果为: 通过
+2022-12-15 17:00:26,139 - [test_group.py-->line:90] - INFO: 编辑组--编辑Group Name, 执行的结果为: 通过
+2022-12-15 17:00:26,372 - [test_group.py-->line:90] - INFO: 编辑组--编辑Description, 执行的结果为: 通过
+2022-12-15 17:00:26,569 - [test_group.py-->line:90] - INFO: 删除组, 执行的结果为: 通过
+2022-12-15 17:00:26,945 - [test_group.py-->line:139] - INFO: 添加组, 执行的结果为: 通过
+2022-12-15 17:00:27,151 - [test_group.py-->line:139] - INFO: 获取可添加到组的SIM Card列表, 执行的结果为: 通过
+2022-12-15 17:00:27,434 - [test_group.py-->line:139] - INFO: 组添加SIM Card, 执行的结果为: 通过
+2022-12-15 17:00:27,592 - [test_group.py-->line:139] - INFO: 查询与组绑定的SIM Card列表, 执行的结果为: 通过
+2022-12-15 17:00:27,871 - [test_group.py-->line:139] - INFO: 将SIM Card移出Group, 执行的结果为: 通过
+2022-12-30 12:28:32,472 - [test_03_list.py-->line:75] - ERROR: 获取SIM Card Group, 执行的结果为: Fail
+具体异常为: assert 0 == 401
+
+2022-12-30 14:36:01,305 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 14:36:01,651 - [test_03_list.py-->line:72] - INFO: 添加组--成功, 执行的结果为: Pass
+
+2022-12-30 14:36:01,931 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 14:36:02,239 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 14:36:02,405 - [test_03_list.py-->line:75] - ERROR: 修改SIM Card所属Group, 执行的结果为: Fail
+具体异常为: assert 0 == 500
+
+2022-12-30 14:49:38,616 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 14:49:39,315 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 14:49:39,727 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 14:52:37,839 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 14:55:21,116 - [test_03_list.py-->line:72] - INFO: 添加组--成功, 执行的结果为: Pass
+
+2022-12-30 14:58:42,657 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 15:01:57,278 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 15:12:17,727 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 15:12:18,219 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 15:12:18,493 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 15:12:39,729 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 15:12:40,205 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 15:12:40,451 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 15:13:25,447 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 15:13:25,708 - [test_03_list.py-->line:72] - INFO: 添加组--成功, 执行的结果为: Pass
+
+2022-12-30 15:13:25,943 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 15:13:26,200 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 15:13:26,389 - [test_03_list.py-->line:72] - INFO: 修改SIM Card所属Group, 执行的结果为: Pass
+
+2022-12-30 16:08:42,434 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 16:08:42,896 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 16:08:43,145 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 16:08:43,366 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--关键字查询, 执行的结果为: Pass
+
+2022-12-30 16:08:43,568 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据运营商查询, 执行的结果为: Pass
+
+2022-12-30 16:08:43,808 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Status查询, 执行的结果为: Pass
+
+2022-12-30 16:09:03,703 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 16:09:03,964 - [test_03_list.py-->line:72] - INFO: 添加组--成功, 执行的结果为: Pass
+
+2022-12-30 16:09:04,174 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 16:09:04,428 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 16:09:04,614 - [test_03_list.py-->line:72] - INFO: 修改SIM Card所属Group, 执行的结果为: Pass
+
+2022-12-30 16:09:04,868 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--关键字查询, 执行的结果为: Pass
+
+2022-12-30 16:09:05,078 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据运营商查询, 执行的结果为: Pass
+
+2022-12-30 16:09:05,348 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Status查询, 执行的结果为: Pass
+
+2022-12-30 16:09:05,568 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Group查询, 执行的结果为: Pass
+
+2022-12-30 16:10:59,023 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 16:10:59,495 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 16:10:59,732 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 16:10:59,973 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--关键字查询, 执行的结果为: Pass
+
+2022-12-30 16:11:00,459 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据运营商查询, 执行的结果为: Pass
+
+2022-12-30 16:11:00,765 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Status查询, 执行的结果为: Pass
+
+2022-12-30 16:11:12,872 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 16:11:13,157 - [test_03_list.py-->line:72] - INFO: 添加组--成功, 执行的结果为: Pass
+
+2022-12-30 16:11:13,402 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 16:11:13,656 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 16:11:13,859 - [test_03_list.py-->line:72] - INFO: 修改SIM Card所属Group, 执行的结果为: Pass
+
+2022-12-30 16:11:14,092 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--关键字查询, 执行的结果为: Pass
+
+2022-12-30 16:11:14,280 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据运营商查询, 执行的结果为: Pass
+
+2022-12-30 16:11:14,511 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Status查询, 执行的结果为: Pass
+
+2022-12-30 16:11:14,726 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Group查询, 执行的结果为: Pass
+
+2022-12-30 16:22:27,223 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 16:22:27,505 - [test_03_list.py-->line:72] - INFO: 添加组--成功, 执行的结果为: Pass
+
+2022-12-30 16:22:27,724 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 16:22:27,966 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 16:22:28,160 - [test_03_list.py-->line:72] - INFO: 修改SIM Card所属Group, 执行的结果为: Pass
+
+2022-12-30 16:22:28,376 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--关键字查询, 执行的结果为: Pass
+
+2022-12-30 16:22:28,559 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据运营商查询, 执行的结果为: Pass
+
+2022-12-30 16:22:28,833 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Status查询, 执行的结果为: Pass
+
+2022-12-30 16:22:29,041 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Group查询, 执行的结果为: Pass
+
+2022-12-30 16:26:46,066 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 16:26:46,545 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 16:26:46,808 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 16:26:47,045 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--关键字查询, 执行的结果为: Pass
+
+2022-12-30 16:26:47,270 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据运营商查询, 执行的结果为: Pass
+
+2022-12-30 16:26:47,516 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Status查询, 执行的结果为: Pass
+
+2022-12-30 16:27:10,118 - [test_03_list.py-->line:72] - INFO: 获取Carrier搜索框选项列表, 执行的结果为: Pass
+
+2022-12-30 16:27:10,392 - [test_03_list.py-->line:72] - INFO: 添加组--成功, 执行的结果为: Pass
+
+2022-12-30 16:27:10,582 - [test_03_list.py-->line:72] - INFO: 获取SIM Card Group, 执行的结果为: Pass
+
+2022-12-30 16:27:10,830 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--查询所有SIM Card, 执行的结果为: Pass
+
+2022-12-30 16:27:11,028 - [test_03_list.py-->line:72] - INFO: 修改SIM Card所属Group, 执行的结果为: Pass
+
+2022-12-30 16:27:11,235 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--关键字查询, 执行的结果为: Pass
+
+2022-12-30 16:27:11,427 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据运营商查询, 执行的结果为: Pass
+
+2022-12-30 16:27:11,675 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Status查询, 执行的结果为: Pass
+
+2022-12-30 16:27:11,866 - [test_03_list.py-->line:72] - INFO: 查询SIM Card List--根据Group查询, 执行的结果为: Pass
+

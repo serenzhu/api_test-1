@@ -1,0 +1,1 @@
+[32mINFO    [0m cases:test_group.py:44 查询SIM Card Group List--空状态, 执行的结果为: 通过

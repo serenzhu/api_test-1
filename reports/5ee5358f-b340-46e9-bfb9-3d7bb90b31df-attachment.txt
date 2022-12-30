@@ -1,0 +1,1 @@
+[32mINFO    [0m cases:test_group.py:139 将SIM Card移出Group, 执行的结果为: 通过

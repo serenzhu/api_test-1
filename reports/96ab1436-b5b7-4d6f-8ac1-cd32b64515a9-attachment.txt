@@ -1,0 +1,1 @@
+[32mINFO    [0m cases:test_02_home.py:42 查询Home页面最近6个月Total Usage, 执行的结果为: Pass
